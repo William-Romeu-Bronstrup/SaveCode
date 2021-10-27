@@ -17,7 +17,7 @@ export function Main() {
   let valueArea = String(textArea);
 
   if(valueArea.length === 4) {
-    valueArea = 'Digite seus primeiros lembretes...'
+    valueArea = 'Enter your first reminders...'
   };
     
   return (
@@ -34,7 +34,7 @@ export function Main() {
       defaultValue={valueArea} 
       style={{backgroundColor: `${inputValueColor}`, color: `${inputColor}`}}
       spellCheck="false"
-      placeholder="Digite seus primeiros lembretes..."
+      placeholder="Enter your first reminders..."
       onChange={textAreaValue}
       />
 
