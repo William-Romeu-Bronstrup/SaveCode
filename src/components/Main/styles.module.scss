@@ -1,0 +1,26 @@
+.container {
+  text-align: center;
+  
+  p {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  
+  p span {
+    font-size: 14.8px;
+    color: rgb(78, 78, 78);
+  }
+  
+  textarea {
+    outline: 0;
+    font-size: 15.5px;
+    border-radius: 8px;
+
+    background: #121224;
+    color: #FFF;
+    padding: 10px;
+    margin: 0px 0px 20px;
+
+    overflow: auto;
+  }
+}

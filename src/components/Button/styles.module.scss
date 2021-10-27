@@ -1,0 +1,27 @@
+.container {
+  padding: 25px;
+  display: flex;
+  justify-content: right;
+
+  button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 17px;
+  }
+
+  button:hover {
+    filter: brightness(0.9);
+    transition: 0.4s;
+  }
+
+  :nth-child(1) {
+    background-color: rgb(92, 92, 255);
+    color: #FFF;
+  }
+}
