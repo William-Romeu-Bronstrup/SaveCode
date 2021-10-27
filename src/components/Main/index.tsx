@@ -29,8 +29,8 @@ export function Main() {
       </p>
 
       <textarea
-      cols={valueCols === 0 ? 120 : valueCols }
-      rows={valueRows === 0 ? 20 : valueRows}
+      cols={valueCols === 0 ? 20 : valueCols }
+      rows={valueRows === 0 ? 10 : valueRows}
       defaultValue={valueArea} 
       style={{backgroundColor: `${inputValueColor}`, color: `${inputColor}`}}
       spellCheck="false"

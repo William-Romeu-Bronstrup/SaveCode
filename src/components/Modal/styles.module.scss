@@ -17,7 +17,7 @@
 }
 
 .content {
-  width: 80%;
+  width: calc(100% - 20%);
 
   display: grid;
   gap: 40px;
@@ -29,7 +29,7 @@
   }
 
   input[type="color"] {
-    margin-left: 20px;
+    margin-left: 15px;
 	  border: none;
   }
 
@@ -55,5 +55,31 @@
   button:hover {
     filter: brightness(0.9);
     transition: 0.4s;
+  }
+}
+
+@media (max-width: 1000px) {
+  .content {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 50vw;
+  }
+  .content {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    margin-left: calc(100% - 100%);
+    width: 100vw;
+    border-radius: 0;
+  }
+  .content {
+    gap: 20px;
   }
 }
